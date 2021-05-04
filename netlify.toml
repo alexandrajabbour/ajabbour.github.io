@@ -1,0 +1,38 @@
+[build]
+publish = "public"
+command = "hugo"
+
+[context.production.environment]
+HUGO_VERSION = "0.70.0"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+
+[context.branch-deploy.environment]
+HUGO_VERSION = "0.70.0"
+
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.70.0"
+
+[context.deploy-preview]
+command = "hugo -b $DEPLOY_PRIME_URL --buildFuture"
+
+[context.branch-deploy]
+command = "hugo -b $DEPLOY_PRIME_URL --buildFuture"
+
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-XSS-Protection = "1; mode=block"
+    Content-Security-Policy = '''
+    default-src * 'self' data: 'unsafe-inline' 'unsafe-eval' https://*.googleapis/*/ https://*.fontawesome.com/*/ https://*.google.com/*/ https://*.platform.twitter.com/*/  https://*.google-analytics.com/*/ https://*.d33wubrfki0l68.cloudfront.net/*/ https://*.cdnjs.cloudflare.com/*/;
+    '''
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, s-max-age=604800"
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, s-max-age=604800"
