@@ -5,8 +5,8 @@ theme: "starter-academic"
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Guy Prochilo # Website name
-baseurl: 'https://gprochilo.github.io/' # Website URL
-copyright: 'Guy Prochilo' # Footer text, e.g. '© {year} Me'
+baseurl: 'https://alexandrajabbour.github.io/' # Website URL
+copyright: 'Alexandra Jabbour' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
