@@ -2,7 +2,7 @@
 title: About
 layout: page
 ---
-![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
+
 
 <p>I am a PhD candidate in Political Science at the Université de Montréal (Canada) under the supervision of Ruth Dassonneville. I do research at the intersection of political behavior, geography and economy. My dissertation explores the role of local factors on citizens’ assessments of the nation’s economic performance. I am funded by the Fond de recherche du Québec Société et Culture (FRQSC).
 
