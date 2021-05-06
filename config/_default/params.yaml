@@ -8,7 +8,7 @@
 theme: minimal
 day_night: true
 font: 'OpenSans'
-font_size: L
+font_size: S
 
 # SEO
 
@@ -16,31 +16,24 @@ site_type: Person
 local_business_type: ''
 org_name: ''
 description: ''
-twitter: 'GuyProchilo'
+twitter: 'alexjabbour'
 
 # Contact (edit or remove options as required)
 
-email: guy.prochilo@gmail.com
+email: alexandra.jabbour@umontreal.ca
 # phone: 888 888 88 88
-address:
-  street: ISN Psychology Pty Ltd, 443 Upper Heidelberg Rd
-  city: Ivanhoe
-  region: VIC
-  postcode: '3081'
-  country: Australia
-  country_code: AU
 # coordinates:
 #   latitude: '37.4275'
 #   longitude: '-122.1697'
 # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-office_hours:
-  - 'Monday to Friday: 9:00 am to 5:00 pm'
+#office_hours:
+ # - 'Monday to Friday: 9:00 am to 5:00 pm'
 # appointment_url: 'https://calendly.com'
 contact_links:
   - icon: twitter
     icon_pack: fab
     name: DM Me
-    link: 'https://twitter.com/GuyProchilo'
+    link: 'https://twitter.com/alexjabbour'
   # - icon: skype
   #   icon_pack: fab
   #   name: Skype Me
