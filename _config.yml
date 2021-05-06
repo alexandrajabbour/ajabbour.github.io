@@ -14,7 +14,7 @@ picture: assets/images/avatar.jpg
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://github.com/alexandrajabbour/alexandrajabbour.github.io/blob/master/assets/cv_050521.pdf
+resume-url: cv_050521.pdf
 
 url: https://alexandrajabbour.github.io/
 # your url: http://USERNAME.github.io
