@@ -54,12 +54,12 @@ github: alexandrajabbour
 email: alexandra.jabbour@umontreal.ca
 
 authors:
-    johndoe:
-        name: John Doe
+    alexandrajabbour:
+        name: Alexandra Jabbour
         bio: A Man who travels the world eating noodles
         external-image: false
-        picture: assets/images/profile.jpg
-        twitter: johndoe
+        picture: assets/images/avatar.jpg
+        twitter: alexjabbour
     jamesfoster:
         name: James Foster
         bio: A Man who develops software with coffee
