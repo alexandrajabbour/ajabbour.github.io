@@ -4,19 +4,11 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>I am a PhD candidate in Political Science at the Université de Montréal (Canada) under the supervision of Ruth Dassonneville. I do research at the intersection of political behavior, geography and economy. My dissertation explores the role of local factors on citizens’ assessments of the nation’s economic performance. I am funded by the Fond de recherche du Québec Société et Culture (FRQSC).
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+I am also interested in questions on representation, group identity, the political consequences of housing markets and the congruence between citizens and political parties. Methodologically, I have a keen interest for causal inference, experimental methods in social sciences and smart identification strategies.
+
+I am currently a research fellow at the Canada Research Chair in Electoral Democracy led by Ruth Dassonneville and affiliated with the Center for the Study of Democratic Citizenship.</p>
 
 <h2>Skills</h2>
 
